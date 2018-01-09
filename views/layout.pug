@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Hello
+    link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(href='../../../../dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='starter-template.css', rel='stylesheet')
+
+  body
+    nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href='/') Wika Tahang
+        ul.nav.navbar-nav.click
+          li
+            a(href='/') Home
+          li
+            a(href='/plus') Input
+          li
+            a(href='/') Output
+          li
+            a(href='/') Total Report
+
+    .container
+      block content
+        br
+        hr
+        footer 

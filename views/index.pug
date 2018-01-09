@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 #{title}
+  ul.list-group
+    each articles, i in article
+      li.list-group-item= articles.title
+      
+  footer
+    p Copyright &copy; 2018
